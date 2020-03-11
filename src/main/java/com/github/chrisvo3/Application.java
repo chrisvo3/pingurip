@@ -3,6 +3,7 @@ package com.github.chrisvo3;
 import org.json.*;
 import java.io.*;
 import java.net.*;
+import java.util.Scanner;
 
 /**
  * Created by vochr
@@ -13,13 +14,33 @@ import java.net.*;
  */
 
 public class Application {
-    public static void main( String[] args){
-        String location = "";
-        JSONObject obj = null;
-        String maplink ="";
 
-        // test case
-        System.out.println(getData(""));
+    static Scanner sc = new Scanner(System.in);
+
+    public static void main( String[] args){
+        System.out.println("Which IP address you want to look up?");
+        String user = choice("a", "b");
+
+        System.out.println(getData(user));
+    }
+
+    public static String choice(String op1, String op2) {
+        System.out.println(op1 + ". mine \t" + "\t" + op2 + ". other");
+        String user = sc.nextLine();
+        if (user.equalsIgnoreCase(op1))
+            return "";
+        else if (user.equalsIgnoreCase(op2)) {
+            return inputIP();
+        } else {
+            System.out.println("Invalid input. Please try again:");
+            return choice(op1, op2);
+        }
+    }
+
+    public static String inputIP() {
+        System.out.println("Enter the IP address:");
+        String user = sc.nextLine();
+        return user;
     }
 
     public static String getData(String ip) {

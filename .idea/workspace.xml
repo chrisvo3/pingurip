@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9307f4ab-8277-4d71-896e-0ccbdc06d0a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/chrisvo3/IpAdress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/chrisvo3/pingIPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/chrisvo3/getDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/chrisvo3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/chrisvo3/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/chrisvo3/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/chrisvo3/Application.class" afterDir="false" />
     </list>
@@ -46,7 +44,7 @@
       <recent name="C:\Users\vochr\Documents\JAVA PATH\geolocation\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.pingIPTest">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.chrisvo3.Application" />
       <module name="geolocation" />
@@ -77,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.pingIPTest" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.pingIPTest" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +92,7 @@
       <updated>1583850915864</updated>
       <workItem from="1583850919206" duration="2333000" />
       <workItem from="1583887491920" duration="1102000" />
-      <workItem from="1583935948688" duration="2562000" />
+      <workItem from="1583935948688" duration="3495000" />
     </task>
     <servers />
   </component>
@@ -114,22 +112,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1583937811112" />
-    <state width="597" height="204" key="GridCell.Tab.0.bottom" timestamp="1583938521989">
+    <state width="1237" height="217" key="GridCell.Tab.0.bottom" timestamp="1583939435779">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="597" height="204" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1583938521989" />
-    <state width="597" height="204" key="GridCell.Tab.0.center" timestamp="1583938521989">
+    <state width="1237" height="217" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1583939435779" />
+    <state width="1237" height="217" key="GridCell.Tab.0.center" timestamp="1583939435779">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="597" height="204" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1583938521989" />
-    <state width="597" height="204" key="GridCell.Tab.0.left" timestamp="1583938521989">
+    <state width="1237" height="217" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1583939435779" />
+    <state width="1237" height="217" key="GridCell.Tab.0.left" timestamp="1583939435779">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="597" height="204" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1583938521989" />
-    <state width="597" height="204" key="GridCell.Tab.0.right" timestamp="1583938521989">
+    <state width="1237" height="217" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1583939435779" />
+    <state width="1237" height="217" key="GridCell.Tab.0.right" timestamp="1583939435779">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="597" height="204" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1583938521989" />
+    <state width="1237" height="217" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1583939435779" />
     <state x="242" y="0" key="SettingsEditor" timestamp="1583938137459">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

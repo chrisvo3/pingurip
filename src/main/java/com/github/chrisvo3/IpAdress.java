@@ -13,7 +13,6 @@ public class IpAdress {
     private String city;
     private String region;
     private String country;
-    private String postal;
 
     public IpAdress() {
     }
@@ -50,21 +49,12 @@ public class IpAdress {
         this.country = country;
     }
 
-    public String getPostal() {
-        return postal;
-    }
-
-    public void setPostal(String postal) {
-        this.postal = postal;
-    }
-
     @Override
     public String toString() {
         return "IpAdress {" +
                 "\n\tip='" + ip + '\'' +
                 ", \n\tcity='" + city + '\'' +
                 ", \n\tregion='" + region + '\'' +
-                ", \n\tcountry='" + country + '\'' +
-                ", \n\tpostal='" + postal + '\'';
+                ", \n\tcountry='" + country + '\'';
     }
 }

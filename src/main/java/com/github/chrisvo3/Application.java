@@ -58,7 +58,6 @@ public class Application {
         String city = obj.getString("city");
         String region = obj.getString("region");
         String country = obj.getString("country");
-        String postal = obj.getString("postal");
         String loc = obj.getString("loc");
 
         IpAdress address = new IpAdress();
@@ -66,7 +65,6 @@ public class Application {
         address.setCity(city);
         address.setRegion(region);
         address.setCountry(country);
-        address.setPostal(postal);
 
         maplink = "https://www.google.com/maps/?q=" + loc;
 

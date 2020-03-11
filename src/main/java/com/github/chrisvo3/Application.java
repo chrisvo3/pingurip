@@ -18,37 +18,50 @@ public class Application {
         JSONObject obj = null;
         String maplink ="";
 
-        //test case
-        location = getData(""); // get our current IP Address
-        obj = new JSONObject(location);
-        System.out.println("\n\nYou are in or near the city of "
-                + obj.getString("city")+ ", "+ obj.getString("country"));
-
-        maplink = "https://www.google.com/maps/?q="
-                +obj.getString("loc");
-
-        System.out.println("Your approximate location on the map: \n"
-                +maplink);
-
-
-        location = getData("8.8.8.8");
-        //System.out.println(location);
-        obj = new JSONObject(location);
-        System.out.println("\n\nYou are in or near the city of "
-                + obj.getString("city")+ ", "+ obj.getString("country"));
-        maplink = "https://www.google.com/maps/?q="
-                +obj.getString("loc");
-        System.out.println("Your approximate location on the map : \n" + maplink );
+        // test case
+        System.out.println(getData(""));
     }
 
     public static String getData(String ip) {
+        String printout = "";
+
+        String location = "";
+        JSONObject obj = null;
+        String maplink ="";
+
+        // test case
+        location = pingIP(ip); // get our current IP Address
+        obj = new JSONObject(location);
+
+        String ipaddress = obj.getString("ip");
+        String city = obj.getString("city");
+        String region = obj.getString("region");
+        String country = obj.getString("country");
+        String postal = obj.getString("postal");
+        String loc = obj.getString("loc");
+
+        IpAdress address = new IpAdress();
+        address.setIp(ipaddress);
+        address.setCity(city);
+        address.setRegion(region);
+        address.setCountry(country);
+        address.setPostal(postal);
+
+        maplink = "https://www.google.com/maps/?q=" + loc;
+
+        printout += address.toString() + "\n\tmap: " + maplink + "\n}";
+        return printout;
+    }
+
+    public static String pingIP(String ip) {
         URL url;
         String response = "";
-        if (!ip.equals("")) ip = "/" + ip ;
+        if (!ip.equals(""))
+            ip = "/" + ip ;
+
         try {
             // get URL content
-
-            String a="https://ipinfo.io"+ip+"/json";
+            String a="https://ipinfo.io" + ip + "/json";
             url = new URL(a);
             URLConnection conn = url.openConnection();
 
@@ -58,7 +71,7 @@ public class Application {
 
             String inputLine;
             while ((inputLine = br.readLine()) != null) {
-                response = response + inputLine;
+                response += inputLine;
             }
             br.close();
         } catch (MalformedURLException e) {
@@ -68,6 +81,7 @@ public class Application {
             e.printStackTrace();
             return "";
         }
+//        System.out.println(response);
         return response;
     }
 }

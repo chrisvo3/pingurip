@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9307f4ab-8277-4d71-896e-0ccbdc06d0a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/chrisvo3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/chrisvo3/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/chrisvo3/getDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/chrisvo3/getDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/chrisvo3/pingIPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/chrisvo3/pingIPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/chrisvo3/repository/IpRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/chrisvo3/repository/IpRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +14,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -52,13 +49,13 @@
       <recent name="C:\Users\vochr\Documents\JAVA PATH\geolocation\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Service">
-    <configuration name="Service" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.chrisvo3.Service" />
+  <component name="RunManager" selected="Application.IpService">
+    <configuration name="IpService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.chrisvo3.service.IpService" />
       <module name="geolocation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.chrisvo3.*" />
+          <option name="PATTERN" value="com.github.chrisvo3.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,7 +67,7 @@
       <module name="geolocation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.chrisvo3.*" />
+          <option name="PATTERN" value="com.github.chrisvo3.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,7 +82,7 @@
       <module name="geolocation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.chrisvo3.*" />
+          <option name="PATTERN" value="com.github.chrisvo3.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,7 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Service" />
+        <item itemvalue="Application.IpService" />
         <item itemvalue="JUnit.getDataTest" />
         <item itemvalue="JUnit.pingIPTest" />
       </list>
@@ -119,7 +116,7 @@
       <workItem from="1583935948688" duration="5380000" />
       <workItem from="1583983057175" duration="18000" />
       <workItem from="1584291725038" duration="17000" />
-      <workItem from="1589077711219" duration="1547000" />
+      <workItem from="1589077711219" duration="2177000" />
     </task>
     <servers />
   </component>

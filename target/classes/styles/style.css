@@ -5,13 +5,12 @@ Created by vochr
 @project geolocation
 */
 
+/* Sticky footer styles
+-------------------------------------------------- */
 body {
     margin-bottom: 60px; /* Margin bottom by footer height */
-    padding-top: 56px;
-    /*background-color: lightseagreen;*/
 }
 
-/* Sticky footer styles */
 .footer {
     position: absolute;
     bottom: 0;
@@ -21,7 +20,5 @@ body {
     background-color: #f5f5f5;
 }
 
-/* Custom page CSS */
-.hide {
-    display: none;
-}
+/* Custom page CSS
+-------------------------------------------------- */

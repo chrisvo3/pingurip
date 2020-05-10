@@ -1,6 +1,7 @@
 package com.github.chrisvo3.repository;
 
 import com.github.chrisvo3.model.IpAdress;
+import org.springframework.data.repository.CrudRepository;
 
 /**
  * Created by vochr

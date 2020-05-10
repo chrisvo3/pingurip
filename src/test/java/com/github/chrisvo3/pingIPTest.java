@@ -1,5 +1,6 @@
 package com.github.chrisvo3;
 
+import com.github.chrisvo3.service.IpService;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -15,7 +16,7 @@ public class pingIPTest {
 
     public void test(String ip, String expected) { // given
         // when
-        String actual = Application.pingIP(ip);
+        String actual = IpService.pingIP(ip);
 
         // then
         Assert.assertEquals(expected, actual);

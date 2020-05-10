@@ -1,5 +1,6 @@
-package com.github.chrisvo3;
+package com.github.chrisvo3.service;
 
+import com.github.chrisvo3.model.IpAdress;
 import org.json.*;
 import java.io.*;
 import java.net.*;
@@ -13,7 +14,7 @@ import java.util.Scanner;
  * @project geolocation
  */
 
-public class Application {
+public class IpService {
 
     static Scanner sc = new Scanner(System.in);
 

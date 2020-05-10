@@ -1,4 +1,4 @@
-package com.github.chrisvo3;
+package com.github.chrisvo3.model;
 
 /**
  * Created by vochr

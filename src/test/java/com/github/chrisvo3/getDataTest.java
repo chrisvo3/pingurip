@@ -1,5 +1,6 @@
 package com.github.chrisvo3;
 
+import com.github.chrisvo3.service.IpService;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -15,7 +16,7 @@ public class getDataTest {
 
     public void test(String ip, String expected) { // given
         // when
-        String actual = Application.getData(ip);
+        String actual = IpService.getData(ip);
 
         // then
         Assert.assertEquals(expected, actual);

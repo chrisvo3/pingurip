@@ -12,8 +12,8 @@ function btnOther() {
 }
 
 $(document).ready(function() {
-    alert("works");
-    var colors = ["lightsalmon", "lightblue", "lightcoral", "lightgoldenrodyellow", "lightgreen", "lightpink"],
+    // alert("works");
+    var colors = ["#FF9AA2", "#FFB7B2", "#FFDAC1", "#E2F0CB", "#B5EAD7", "#C7CEEA"],
         selectedColor = colors[Math.floor(Math.random()*colors.length)];
     let body = $("#body");
 

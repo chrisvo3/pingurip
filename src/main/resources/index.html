@@ -22,12 +22,13 @@
 <body id="body">
 
 <main role="main" class="container">
-    <div class="d-flex align-items-center p-3 my-3 rounded box-shadow">
+
+    <div class="d-flex align-items-center bg-white p-3 my-3 rounded box-shadow">
         <div class="lh-100">
             <h1 class="mb-0 text-dark lh-100">Ping Your IP Address</h1>
             <p>
                 Enter your IP address to look up for your city, region, country, and map link to your location<br>
-                <small style="color:lightgray">This wouldn't be accurate if you are in an office/corporation, due to high secure layers network</small>
+                <small style="color:darkgray">This wouldn't be accurate if you are in an office/corporation, due to high secure layers network</small>
             </p>
         </div>
     </div>
@@ -53,7 +54,7 @@
         <h6 class="border-bottom border-gray pb-2 mb-0">Looking up...</h6>
         <div class="media text-muted pt-3">
             <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-                <strong class="d-block text-gray-dark">@IP Address</strong>
+                <strong class="d-block text-gray-dark">@ip-address</strong>
                 [address]
             </p>
         </div>
@@ -77,14 +78,18 @@
         </div>
         <div class="media text-muted pt-3">
             <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-                <strong class="d-block text-gray-dark">@location</strong>
-                [location]
+                <strong class="d-block text-gray-dark">@google-map-location</strong>
+                [url link]
             </p>
         </div>
     </div>
 
 </main>
-
+<script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+</script>
 <script src="script/javascript.js"></script>
 </body>
 </html>
